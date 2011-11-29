@@ -2,6 +2,7 @@ body
 {
     font-weight: normal;
     line-height: 1em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 h1 {
@@ -30,8 +31,9 @@ small {
     background-image: linear-gradient(top, #004d9f, #049cd9);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#004d9f', endColorstr='#049cd9', GradientType=0);
     color: #fff;
-    font-size: 0.85em;
+    font-size: 0.75em;
     line-height: 1.5em;
+    text-shadow: 0 0.01em 0.01em rgba(0, 0, 0, 0.25); 
 }
 
 .inner {
@@ -39,5 +41,9 @@ small {
     background-image: url(lib/innerbg.png);
     padding-top: 2em;
     padding-bottom: 1em;
+}
+
+p {
+    margin-bottom: .8em;
 }
 
