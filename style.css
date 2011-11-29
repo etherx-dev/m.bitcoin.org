@@ -14,6 +14,10 @@ h2 {
     font-size: 1.1em;
 }
 
+small {
+    font-size: 0.5em;
+}
+
 #masthead{
     background-color:#049cd9;
     background-repeat:repeat-x;
