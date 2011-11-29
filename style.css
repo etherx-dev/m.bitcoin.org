@@ -4,7 +4,7 @@ body
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1em;
     font-weight:normal;
-    line-height:1.1em;
+    line-height:1em;
     color:#808080;
 }
 
@@ -18,10 +18,6 @@ h2 {
     font-size: 1.1em;
 }
 
-p {
-    font-size: 1em;
-}
-
 #masthead{
     background-color:#049cd9;
     background-repeat:repeat-x;
@@ -32,6 +28,6 @@ p {
     background-image:-webkit-linear-gradient(top, #004d9f, #049cd9);
     background-image:-o-linear-gradient(top, #004d9f, #049cd9);
     background-image:linear-gradient(top, #004d9f, #049cd9);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#004d9f', endColorstr='#049cd9', GradientType=0)
-    ;color:#fff;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#004d9f', endColorstr='#049cd9', GradientType=0);
+    color:#fff;
 }
