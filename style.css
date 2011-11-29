@@ -47,8 +47,9 @@ p {
     margin-bottom: .8em;
 }
 
-.white_link {
-    color: white;
+a.ui-link {
+    color: #fff;
+    font-weight: bold;
 }
 
 
