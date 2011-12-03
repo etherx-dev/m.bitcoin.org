@@ -4,3 +4,8 @@ body {
   font-line-height: 1em;
   font-font-weight: normal;
 }
+
+/* line 7 */
+h1 {
+  text-align: center;
+}
