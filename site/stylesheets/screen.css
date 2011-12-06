@@ -41,7 +41,7 @@ small {
 
 /* line 33 */
 .inner {
-  background-image: url(lib/innerbg.png);
+  background-image: url(../images/innerbg.png);
   padding-top: 2em;
   padding-bottom: 1em;
 }
