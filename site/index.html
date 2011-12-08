@@ -8,29 +8,41 @@
     <script src='http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js'></script>
   </head>
   <body>
-    <div id='masthead'>
-      <div class='inner'>
-        <h1>
-          Bitcoin
-          <small>
-            P2P Currency
-            <p>
-              Bitcoin is an experimental new digital currency that enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out
-              <a href='http://bitcoin.org/bitcoin.pdf'>collectively by the network.</a>
-              Bitcoin is also the name of the open source software which enables the use of this currency.
-              <p>
-                The
-                <a href='https://en.bitcoin.it/wiki/Original_Bitcoin_client'>software</a>
-                is a community-driven open source project, released under the MIT license.
-              </p>
-            </p>
-          </small>
-        </h1>
+    <div data-role='page' data-theme='d'>
+      <div id='masthead'>
+        <div class='inner'>
+          <h1>
+            Bitcoin
+            <small>
+              P2P Digital Currency
+            </small>
+          </h1>
+          <p>
+            Bitcoin is an experimental new digital currency that enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate with no central authority: managing transactions and issuing money are carried out
+            <a href='http://bitcoin.org/bitcoin.pdf' id='link'>collectively by the network.</a>
+            Bitcoin is also the name of the open source software which enables the use of this currency.
+          </p>
+          <p>
+            The
+            <a href='https://en.bitcoin.it/wiki/Original_Bitcoin_client' id='link'>software</a>
+            is a community-driven open source project, released under the MIT license.
+          </p>
+          <p>
+            <a data-inline='true' data-role='button' href='http://www.weusecoins.com/'>Learn how to use bitcoin</a>
+            <a data-inline='true' data-role='button' href='about.html'>Learn more about Bitcoin</a>
+          </p>
+        </div>
       </div>
-    </div>
-    <div>
-      <a href="index.html">index</a>
-      <a href="news.html">news</a>
+      <div class='ui-bar ui-bar-a'>
+        <a href="index.html">index</a>
+        <a href="news.html">news</a>
+        <a href="about.html">about</a>
+      </div>
+      <p id='footer'>
+        © Bitcoin Project 2009–2011
+        <br />
+        Released under the MIT license
+      </p>
     </div>
   </body>
 </html>
