@@ -49,4 +49,29 @@ small {
 /* line 39 */
 p {
   margin-bottom: 0.8em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* line 44 */
+#link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 49 */
+a {
+  text-decoration: none;
+}
+
+/* line 52 */
+#footer {
+  color: gray;
+  font-size: 0.7em;
+}
+
+/* line 56 */
+table {
+  margin: 1em;
 }
