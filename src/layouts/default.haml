@@ -10,8 +10,9 @@
     
 
   %body
-    = partial("masthead")
-    = yield
-    = partial("nav")
-    = partial("footer")
+    %div{"data-role" => "page", "data-theme" => "d"}
+      = partial("masthead")
+      = yield
+      = partial("nav")
+      = partial("footer")
   
